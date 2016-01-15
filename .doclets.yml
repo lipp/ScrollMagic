@@ -1,0 +1,4 @@
+dir: scrollmagic/uncompressed
+flavor: jsdoc
+articles:
+  - Readme: README.md
