@@ -2498,6 +2498,7 @@
 		 * ------------------------------
 		 * internal helpers
 		 * ------------------------------
+		 * @private
 		 */
 
 		// parse float and fall back to 0.
@@ -2536,6 +2537,7 @@
 		 * ------------------------------
 		 * external helpers
 		 * ------------------------------
+		 * @private
 		 */
 
 		// extend obj – same as jQuery.extend({}, objA, objB)
@@ -2621,6 +2623,7 @@
 		 * ------------------------------
 		 * type testing
 		 * ------------------------------
+		 * @private
 		 */
 
 		var _type = U.type = function (v) {
@@ -2648,6 +2651,7 @@
 		 * ------------------------------
 		 * DOM Element info
 		 * ------------------------------
+		 * @private
 		 */
 		// always returns a list of matching DOM elements, from a selector, a DOM element or an list of elements or even an array of selectors
 		var _get = U.get = {};
@@ -2709,6 +2713,7 @@
 		 * ------------------------------
 		 * DOM Element manipulation
 		 * ------------------------------
+		 * @private
 		 */
 
 		U.addClass = function (elem, classname) {
